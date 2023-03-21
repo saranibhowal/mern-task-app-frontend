@@ -124,7 +124,7 @@ const TaskList = () => {
       {
         !isLoading && tasks.length === 0 ?
           (
-            <p className='--py'>No task added. Please add a tas</p>
+            <p className='--py'>No task added. Please add a task.</p>
           )
           :
           (
